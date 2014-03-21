@@ -1,0 +1,169 @@
+@media (max-width:690px) { 
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+	.shixels_about_holder {
+		top: 15% !important;
+
+		p {
+			font-size: 1em !important;
+		}
+	}
+	.shixels_mobile_menu_options {
+		display: block !important;
+		width: 300px;
+		min-height: 92.5%;
+		background: $shixels_black;
+		position: absolute;
+		top: 53px;
+		z-index: 2;
+		right: -300px;
+		-webkit-transition: 0.5s right; /* For Safari 3.1 to 6.0 */
+		transition: 0.5s right;
+		.shixels_nav_options {
+			display: block !important;
+			padding-top: 0 !important;
+			font-family: $sans2;
+			position: absolute;
+			top: 20%;
+			li {
+				display: block !important;
+				color: $shixels_white !important;
+				width: 100% !important;
+				float: left !important;
+				text-align: center !important;
+				padding-left: 0 !important;
+				font-size: 2em !important;
+				padding-top: 0 !important;
+				cursor: pointer !important;
+				line-height: 2em;
+
+				&.active {
+					color: $shixels_red !important;
+				}
+
+				&:hover {
+					background: darken($shixels_red, 10%);		
+					color: $shixels_white !important;			
+				}
+			}
+		}
+	}
+	.shixels_nav_options {
+		display: none !important;
+	}
+
+	.shixels_terms {
+		font-size: 1.5em !important;
+	}
+
+	.shixels_sub_section {
+
+		p {
+			line-height: 1.5em !important;
+			font-size: 0.7em !important;
+		}
+
+		h3 {
+			font-size: 1em !important;
+			margin-bottom: 5px !important;
+		}
+		h2, h5 {
+			font-size: 1.5em !important;
+		}
+
+		.shixels_col {
+			display: block !important;
+			width: 90% !important;
+		}
+		.shixels_col_two {
+			width: 80% !important;
+			min-height: 0 !important;
+		}
+	} 
+	.shixels_bottom {
+		height: 20% !important;
+		bottom: 20px !important;
+	 	&.branding {
+			bottom: 0!important;
+			position: absolute !important;
+		}
+
+		&.devices {
+			margin: 35% auto !important;
+		}
+	}
+	.shixels_slogan {
+		.top {
+			font-size: 1.5em !important;
+			color: $shixels_white !important;
+			margin-bottom: 2%;
+		}
+		.bottom {
+			font-size: 5em !important;
+		}
+	}
+
+	.shixels_next_section i, .shixels_prev_section i {
+		font-size: 1.5em !important;
+	}
+
+	.shixels_next_section, .shixels_prev_section {
+		font-size: 1em !important;
+	}
+
+	.shixels_contact .shixels_contact_form {
+		top: 10% !important;
+	}
+	
+	.shixels_button {
+		width: 85% !important;
+		&.space {
+			margin-right: 0 !important;
+			margin-bottom: 15px !important;
+		}
+	}
+
+	.shixels_mobile_menu {
+		display: block !important;
+		cursor: pointer;
+		color: $shixels_red;
+		position: absolute;
+		right: 15px;
+		font-size: 2em;
+		top: 10px;
+
+		&:hover {
+			color: darken($shixels_red, 10%);
+		}
+	}
+
+	.work_img {
+		width: 80% !important;
+	}
+
+	.shixels_contact .shixels_contact_form .shixels_contact_form_element {
+
+		.shixels_error {
+			display: none;
+			color: #fff;
+			font-family: "Open Sans";
+			text-transform: uppercase;
+			font-size: 0.9em;
+			padding-bottom: 10px;
+		}
+		width: 100% !important;
+
+		input, select {
+			height: 40px !important;
+		}
+
+		textarea {
+			width: 90% !important;
+			height: 90px !important;
+		}
+	}
+}
+@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

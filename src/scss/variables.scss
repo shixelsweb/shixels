@@ -1,0 +1,15 @@
+$shixels_red: #c00;
+$shixels_white: #fff;
+$shixels_shadow: #666;
+$shixels_black: #000;
+$shixels_offblack: #4a4a4a;
+
+@include font-face("Lobster", font-files("/src/fonts/Lobster.otf"));
+@include font-face("Arcade", font-files("/src/fonts/ka1.ttf"));
+@include font-face("Cabin", font-files("/src/fonts/Cabin.otf"));
+@include font-face("Open Sans", font-files("/src/fonts/OpenSans.ttf"));
+
+$sans: "Cabin";
+$cursive: "Lobster";
+$arcade: "Arcade";
+$sans2: "Open Sans";
